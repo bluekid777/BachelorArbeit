@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.23)  14 MAR 2014 08:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.23)  18 MAR 2014 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,136 +732,42 @@ l.11 \begin{document}
                       [2
 
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 16.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `kochbuch' on page 3 undefined on input line 16.
-
-
-LaTeX Warning: Citation `rudl' on page 3 undefined on input line 16.
-
-
-LaTeX Warning: Citation `begleiter' on page 3 undefined on input line 16.
-
-
-LaTeX Warning: Citation `kopka' on page 3 undefined on input line 16.
-
-
-Overfull \hbox (5.2855pt too wide) in paragraph at lines 16--17
-\T1/ptm/m/n/10.95 en-twick-elt um ein-fach gut ausse-hende (vor allem wis-sensc
-haftliche) Ver"offentlichungen zu erm"oglichen.
- []
-
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 20.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 26.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 29.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
  [3]
-Overfull \hbox (11.67963pt too wide) in paragraph at lines 75--76
-[]\T1/pcr/m/n/10.95 hauptseminar\T1/ptm/m/n/10.95 : F"ur einen Beitrag zum Haup
-t-sem-i-nar ``Rech-ner-ar-chitek-tur und Pro-gram-mierung'' 
- []
+Overfull \vbox (165.74591pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (2.9193pt too wide) in paragraph at lines 83--84
-\T1/ptm/m/n/10.95 dass sich der Zeilen-ab-stand ver"andert. Seit-enumbr"uche un
-d Po-si-tion-ierung von Grafiken/Tabellen
- []
-
-[4] [5]
-Overfull \hbox (2.9193pt too wide) in paragraph at lines 131--132
-\T1/ptm/m/n/10.95 dass sich der Zeilen-ab-stand ver"andert. Seit-enumbr"uche un
-d Po-si-tion-ierung von Grafiken/Tabellen
- []
-
-[6]
-Overfull \hbox (2.9193pt too wide) in paragraph at lines 186--187
-\T1/ptm/m/n/10.95 dass sich der Zeilen-ab-stand ver"andert. Seit-enumbr"uche un
-d Po-si-tion-ierung von Grafiken/Tabellen
- []
-
-[7]
-Overfull \hbox (2.9193pt too wide) in paragraph at lines 234--235
-\T1/ptm/m/n/10.95 dass sich der Zeilen-ab-stand ver"andert. Seit-enumbr"uche un
-d Po-si-tion-ierung von Grafiken/Tabellen
- []
-
-[8]
-
-LaTeX Warning: Citation `rudl' on page 9 undefined on input line 266.
-
-
-LaTeX Warning: Citation `rudl' on page 9 undefined on input line 267.
-
-[9] <zih_logo_de_sw.pdf, id=147, 845.04686pt x 597.50786pt>
-File: zih_logo_de_sw.pdf Graphic file (type pdf)
-
-<use zih_logo_de_sw.pdf>
-Package pdftex.def Info: zih_logo_de_sw.pdf used on input line 294.
-(pdftex.def)             Requested size: 204.85844pt x 144.84534pt.
-
-Overfull \hbox (15.06621pt too wide) in paragraph at lines 301--302
-[]\T1/ptm/m/n/10.95 F"ur die Tabel-lenumge-bung ([]\T1/pcr/m/n/10.95 \begin{tab
-le} ... \end{table}\T1/ptm/m/n/10.95 ) gilt sel-biges wie f"ur die Grafiken,
- []
-
-
-Overfull \hbox (15.667pt too wide) in paragraph at lines 304--305
-\T1/ptm/m/n/10.95 Literaturverweise in-ner-halb des Doku-ments sollen or-dentli
-ch mit []\T1/pcr/m/n/10.95 \cite \T1/ptm/m/n/10.95 oder auch den ex-tra zur Ver
-f"ugung
- []
-
-[10 <./zih_logo_de_sw.pdf>] [11] [12
-
-]
+[4]
 No file doku.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 (./doku.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `doku.out' has not changed.
-(rerunfilecheck)             Checksum: CC3F8799DBCCF2DB9F8D51F894E14777;1246.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 334.
+(rerunfilecheck)             Checksum: 1CF438008567E323FD422CBBDC4392AE;2570.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 11 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8661 strings out of 493315
- 125270 string characters out of 6137904
- 238148 words of memory out of 5000000
- 11924 multiletter control sequences out of 15000+600000
- 56371 words of font info for 86 fonts, out of 8000000 for 9000
+ 8612 strings out of 493315
+ 124802 string characters out of 6137904
+ 239958 words of memory out of 5000000
+ 11879 multiletter control sequences out of 15000+600000
+ 41304 words of font info for 72 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,11n,49p,1062b,1257s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,49p,247b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on doku.pdf (14 pages, 142054 bytes).
+}</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on doku.pdf (6 pages, 37707 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
