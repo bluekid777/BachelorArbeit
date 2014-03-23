@@ -1,40 +1,39 @@
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}Background}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Objectives}{4}{subsection.1.2}
-\contentsline {section}{\numberline {2}Biological Background}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Sequence Assembly}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Algorithm}{4}{subsection.2.2}
-\contentsline {section}{\numberline {3}Trinity}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Structure}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Phases}{4}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}0 - Jellyfish}{4}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}1 - Inchworm}{4}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}2 - Chrysalis}{4}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}3 - Butterfly}{4}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Applications}{4}{subsection.3.3}
-\contentsline {section}{\numberline {4}Inchworm}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Phases}{4}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Parsing}{4}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Sorting}{4}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}Pruning}{4}{subsubsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.4}Assembling}{4}{subsubsection.4.1.4}
-\contentsline {subsection}{\numberline {4.2}Implementation}{4}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Performance Bottlenecks}{4}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Conclusion}{4}{subsection.4.4}
-\contentsline {section}{\numberline {5}Performance Optimisation}{4}{section.5}
-\contentsline {subsection}{\numberline {5.1}Parsing}{4}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Memory Mapped IO}{4}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Benefits}{4}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}How it is used?}{4}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}Impact on Inchworm}{4}{subsubsection.5.1.4}
-\contentsline {subsection}{\numberline {5.2}Sorting}{4}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Pruning}{4}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Parallel Pruning}{4}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Performance Gain}{4}{subsubsection.5.3.2}
-\contentsline {subsection}{\numberline {5.4}Assembly}{4}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Bottlenecks}{4}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}Parallel Assembling}{4}{subsubsection.5.4.2}
-\contentsline {subsubsection}{\numberline {5.4.3}Benefits}{4}{subsubsection.5.4.3}
-\contentsline {subsubsection}{\numberline {5.4.4}Impact on inchworm results}{4}{subsubsection.5.4.4}
-\contentsline {section}{\numberline {6}Conclusion}{4}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future work}{4}{subsection.6.1}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Biological Background}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Sequence Assembly}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Algorithm}{5}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Technical Background}{5}{subsection.1.2}
+\contentsline {section}{\numberline {2}Trinity}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Structure}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Phases}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}0 - Jellyfish}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}1 - Inchworm}{5}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}2 - Chrysalis}{5}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}3 - Butterfly}{5}{subsubsection.2.2.4}
+\contentsline {subsection}{\numberline {2.3}Applications}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Inchworm}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Phases}{5}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Parsing}{5}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Sorting}{5}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Pruning}{5}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Assembling}{5}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Implementation}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Performance Bottlenecks}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Conclusion}{5}{subsection.3.4}
+\contentsline {section}{\numberline {4}Performance Optimisation}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Parsing}{5}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Memory Mapped IO}{5}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Benefits}{5}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}How it is used?}{5}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Impact on Inchworm}{5}{subsubsection.4.1.4}
+\contentsline {subsection}{\numberline {4.2}Sorting}{5}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Pruning}{5}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Parallel Pruning}{5}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Performance Gain}{5}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Assembly}{5}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Bottlenecks}{5}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Parallel Assembling}{5}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Benefits}{5}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Impact on inchworm results}{5}{subsubsection.4.4.4}
+\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Future work}{5}{subsection.5.1}

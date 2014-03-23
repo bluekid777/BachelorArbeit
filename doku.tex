@@ -9,15 +9,14 @@
 \betreuer{Prof. Dr. Wolfgang E. Nagel}
 
 \begin{document}
-
-\section{Introduction}
-\subsection{Background}
-\subsection{Objectives}
+\section{Introduction} The high demand for low-cost sequencing has driven the development of high-throughput sequencing, which is also termed as Next generation sequencing (NGS). Thousands or millions of sequences concurrently produced in next-generation sequencing process. RNA-sequencing is a technology that uses the capabilities of next-generation sequencing to reveal the snapshot of RNA presence and quality from a genome at given moment in time. A number of assembly programs are available. Although these programs have been generally successful in assembling genomes, transcriptome assembly presents some unique challenges. Whereas high sequence coverage for a genome may indicate the presence of repetitive sequences, for a transcriptome, they may indicate abundance. Trinity is one of those assemblers that has superior quality and represents a novel method for efficient and robust de novo reconstruction reconstruction of transcriptomes from RNA-seq data. Careful performance analysis of \emph{Trinity} software demonstrated that few of the components of the application specially \emph{Inchworm} can be manipulated in order to achieve high performance gain. This document thus discusses the performance optimisations and parallel master slave approach of computing sequence assemblies deployed in \emph{Inchworm} that boosted the performance to a great extent.
+\subsection{Biological Background}
+The detailed analysis of \emph{Inchworm} involves familiarity with a lot of biological terms and techniques. This section discusses some of those key biological elements that play crucial role in better understanding of implementation and a deeper insight of how the changes in the assembly algorithm is effecting the final results.
+\subsubsection{Sequence Assembly}
+The core of \emph{Inchworm} is in the assembly that is deployed presently using a simple but very efficient greedy algorithm. In order to extend a kmer, the algorithm simply chooses a kmer with k-1 overlap having highest count from the catalog and continues it until the extension is possible.
+\subsubsection{Algorithm}
+\subsection{Technical Background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Biological Background}
-\subsection{Sequence Assembly}
-\subsection{Algorithm}
-
 \section{Trinity}
 \subsection{Structure}
 \subsection{Phases}
