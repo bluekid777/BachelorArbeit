@@ -17,16 +17,11 @@ The detailed analysis of \emph{Inchworm} involves familiarity with a lot of biol
 \paragraph{k-mer}: It basically refers to n-tuple of nucleic acid and amino acid sequences that can be used to identify certain regions within biomolecules like RNA. Either k-mer strings as such can be used for finding regions of interest, or \emph{k-mer} statistics giving discrete probability distribution of a number of possible k-mer combinations are used. These sequences (string) consist of 4 different type of elements which are A (Adenine), T (Thymine), C (Cytosine) and G (Guanine). One example of \emph{k-mer} is a \emph{25-mer}:  ATTAGCATACCCAAGCTAGAACTTA.
 \paragraph{Contig}: A contig is a set of overlapping DNA segments that together represent a consensus region of DNA. In bottom-up sequencing projects, a contig refers to overlapping sequence data (reads); in top-down sequencing projects, contig refers to the overlapping clones that form a physical map of the genome that is used to guide sequencing and assembly. Contigs can thus refer both to overlapping DNA sequence and to overlapping physical segments (fragments) contained in clones depending on the context.
 \paragraph{Sequence Assembly}: Sequence assembly refers to aligning and merging fragments of a much longer DNA sequence in order to reconstruct the original sequence. This is needed as DNA sequencing technology cannot read whole genomes in one go, but rather reads small pieces of between 20 and 30000 bases, depending on the technology used. Typically the short fragments, called reads, result from shotgun sequencing genomic DNA, or gene transcript.
-\subsection{Technical Background}
-Along with the basics of biological knowledge, we need to discuss some of the technologies involved it the analysis and implementation of \emph{Inchworm}. 
-\section{Trinity}
-\subsection{Structure}
-\subsection{Phases}
-\subsubsection{Jellyfish}
-\subsubsection{Inchworm}
-\subsubsection{Chrysalis}
-\subsubsection{Butterfly}
-\subsection{Applications}
+\subsubsection{Work flow}
+\subsection{Trinity}
+\subsubsection{Structure}
+\subsubsection{Phases}
+\subsubsection{Applications}
 
 \section{Inchworm}
 \subsection{Phases}
@@ -35,15 +30,16 @@ Along with the basics of biological knowledge, we need to discuss some of the te
 \subsubsection{Pruning}
 \subsubsection{Assembling}
 \subsection{Implementation}
-\subsection{Performance Bottlenecks}
-\subsection{Conclusion}
+
+\section{Pertformance Analysis}
+\subsection{Datasets}
+\subsection{Hardware \& Software Environments}
+\subsection{Phase-Wise Analysis}
 
 \section{Performance Optimisation}
 \subsection{Parsing}
-\subsubsection{Memory Mapped IO}
-\subsubsection{Benefits}
-\subsubsection{How it is used?}
-\subsubsection{Impact on Inchworm}
+\subsubsection{Memory Mapping}
+\subsubsection{Improvements Observed}
 \subsection{Sorting}
 \subsection{Pruning}
 \subsubsection{Parallel Pruning}
