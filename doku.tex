@@ -16,13 +16,13 @@ The detailed analysis of \emph{Inchworm} involves familiarity with a lot of biol
 \paragraph{Ribo Nuceic Acid (RNA)}: Ribonucleic acid (RNA) is a ubiquitous family of large biological molecules that perform multiple vital roles in the coding, decoding, regulation, and expression of genes. Some RNA molecules play an active role within cells by catalyzing biological reactions, controlling gene expression, or sensing and communicating responses to cellular signals. One of these active processes is protein synthesis, a universal function whereby Messenger RNA molecules direct the assembly of proteins on ribosomes.
 \paragraph{k-mer}: It basically refers to n-tuple of nucleic acid and amino acid sequences that can be used to identify certain regions within biomolecules like RNA. Either k-mer strings as such can be used for finding regions of interest, or \emph{k-mer} statistics giving discrete probability distribution of a number of possible k-mer combinations are used. These sequences (string) consist of 4 different type of elements which are A (Adenine), T (Thymine), C (Cytosine) and G (Guanine). One example of \emph{k-mer} is a \emph{25-mer}:  ATTAGCATACCCAAGCTAGAACTTA.
 \paragraph{Contig}: A contig is a set of overlapping DNA segments that together represent a consensus region of DNA. In bottom-up sequencing projects, a contig refers to overlapping sequence data (reads); in top-down sequencing projects, contig refers to the overlapping clones that form a physical map of the genome that is used to guide sequencing and assembly. Contigs can thus refer both to overlapping DNA sequence and to overlapping physical segments (fragments) contained in clones depending on the context.
-\paragraph{Sequence Assembly}: Sequence assembly refers to aligning and merging fragments of a much longer DNA sequence in order to reconstruct the original sequence. This is needed as DNA sequencing technology cannot read whole genomes in one go, but rather reads small pieces of between 20 and 30000 bases, depending on the technology used. Typically the short fragments, called reads, result from shotgun sequencing genomic DNA, or gene transcript.
-\subsubsection{Work flow}
+\paragraph{Sequence Assembly}: Sequence assembly refers to aligning and merging fragments of a much longer DNA sequence in order to reconstruct the original sequence. This is needed as DNA sequencing technology cannot read whole genomes in one go, but rather reads small pieces of between 20 and 30000 bases, depending on the technology used. Typically the short fragments, called reads, result from shotgun sequencing genomic DNA, or gene transcript. 
+\subsubsection{Work Flow}
 \subsection{Trinity}
 \subsubsection{Structure}
 \subsubsection{Phases}
-\subsubsection{Applications}
-
+\subsection{Applications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Inchworm}
 \subsection{Phases}
 \subsubsection{Parsing}
@@ -30,26 +30,25 @@ The detailed analysis of \emph{Inchworm} involves familiarity with a lot of biol
 \subsubsection{Pruning}
 \subsubsection{Assembling}
 \subsection{Implementation}
-
-\section{Pertformance Analysis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Performance Analysis}
 \subsection{Datasets}
-\subsection{Hardware \& Software Environments}
-\subsection{Phase-Wise Analysis}
+\subsection{Hardware \& Software Environment}
+\subsection{Phase Analysis of Inchworm}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Performance Optimisation}
 \subsection{Parsing}
 \subsubsection{Memory Mapping}
-\subsubsection{Improvements Observed}
-\subsection{Sorting}
+\subsubsection{Observed Improvements}
 \subsection{Pruning}
 \subsubsection{Parallel Pruning}
 \subsubsection{Performance Gain}
 \subsection{Assembly}
-\subsubsection{Bottlenecks}
-\subsubsection{Parallel Assembling}
+\subsubsection{Master-Slave Approach}
 \subsubsection{Benefits}
-\subsubsection{Impact on inchworm results}
-
+\subsection{Overall Improvements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
 \subsection{Future work}
 
